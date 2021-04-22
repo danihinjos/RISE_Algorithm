@@ -1,0 +1,180 @@
+RULE 0: IF 'sepallength' IN RANGE [4.9, 5.0] AND 'sepalwidth' IN RANGE [3.0, 3.0] AND 'petallength' IN RANGE [1.4, 1.6] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [0, 86]
+
+RULE 1: IF 'sepallength' IN RANGE [6.5, 6.7] AND 'sepalwidth' IN RANGE [2.5, 3.0] AND 'petallength' IN RANGE [5.8, 5.8] AND 'petalwidth' IN RANGE [1.8, 2.2] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [1, 73]
+
+RULE 2: IF 'sepallength' IN RANGE [5.6, 6.1] AND 'sepalwidth' IN RANGE [2.8, 3.0] AND 'petallength' IN RANGE [4.9, 4.9] AND 'petalwidth' IN RANGE [1.8, 2.0] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [2, 88]
+
+RULE 3: IF 'sepallength' IN RANGE [5.5, 5.5] AND 'sepalwidth' IN RANGE [2.3, 2.5] AND 'petallength' IN RANGE [4.0, 4.0] AND 'petalwidth' IN RANGE [1.3, 1.3] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [3, 37]
+
+RULE 4: IF 'sepallength' IN RANGE [5.0, 5.7] AND 'sepalwidth' IN RANGE [2.3, 2.6] AND 'petallength' IN RANGE [3.3, 3.5] AND 'petalwidth' IN RANGE [1.0, 1.0] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [4, 20]
+
+RULE 5: IF 'sepallength' IN RANGE [7.1, 7.6] AND 'sepalwidth' IN RANGE [3.0, 3.0] AND 'petallength' IN RANGE [5.9, 6.6] AND 'petalwidth' IN RANGE [2.1, 2.1] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [5, 49]
+
+RULE 6: IF 'sepallength' IN RANGE [5.1, 5.1] AND 'sepalwidth' IN RANGE [3.8, 3.8] AND 'petallength' IN RANGE [1.5, 1.9] AND 'petalwidth' IN RANGE [0.3, 0.4] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [6, 91]
+
+RULE 7: IF 'sepallength' IN RANGE [5.0, 5.1] AND 'sepalwidth' IN RANGE [3.5, 3.5] AND 'petallength' IN RANGE [1.3, 1.4] AND 'petalwidth' IN RANGE [0.3, 0.3] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [7, 74]
+
+RULE 8: IF 'sepallength' IN RANGE [6.3, 6.7] AND 'sepalwidth' IN RANGE [3.1, 3.4] AND 'petallength' IN RANGE [5.6, 5.6] AND 'petalwidth' IN RANGE [2.4, 2.4] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [8, 92]
+
+RULE 9: IF 'sepallength' IN RANGE [5.2, 5.5] AND 'sepalwidth' IN RANGE [4.1, 4.2] AND 'petallength' IN RANGE [1.4, 1.5] AND 'petalwidth' IN RANGE [0.1, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [9, 103]
+
+RULE 10: IF 'sepallength' IN RANGE [6.1, 6.5] AND 'sepalwidth' IN RANGE [2.8, 3.0] AND 'petallength' IN RANGE [4.6, 4.6] AND 'petalwidth' IN RANGE [1.4, 1.5] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [10, 47]
+
+RULE 11: IF 'sepallength' IN RANGE [6.3, 6.7] AND 'sepalwidth' IN RANGE [3.1, 3.3] AND 'petallength' IN RANGE [4.7, 4.7] AND 'petalwidth' IN RANGE [1.5, 1.6] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [11, 39]
+
+RULE 12: IF 'sepallength' IN RANGE [5.5, 5.8] AND 'sepalwidth' IN RANGE [2.3, 2.6] AND 'petallength' IN RANGE [4.0, 4.0] AND 'petalwidth' IN RANGE [1.2, 1.3] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [12, 3]
+
+RULE 13: IF 'sepallength' IN RANGE [5.9, 5.9] AND 'sepalwidth' IN RANGE [3.0, 3.2] AND 'petallength' IN RANGE [4.2, 4.8] AND 'petalwidth' IN RANGE [1.5, 1.8] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [13, 51]
+
+RULE 14: IF 'sepallength' IN RANGE [7.4, 7.7] AND 'sepalwidth' IN RANGE [2.8, 3.0] AND 'petallength' IN RANGE [6.1, 6.1] AND 'petalwidth' IN RANGE [1.9, 2.3] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [14, 89]
+
+RULE 15: IF 'sepallength' IN RANGE [5.4, 5.4] AND 'sepalwidth' IN RANGE [3.4, 3.4] AND 'petallength' IN RANGE [1.5, 1.7] AND 'petalwidth' IN RANGE [0.2, 0.4] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [15, 19]
+
+RULE 16: IF 'sepallength' IN RANGE [4.9, 4.9] AND 'sepalwidth' IN RANGE [3.1, 3.1] AND 'petallength' IN RANGE [1.5, 1.5] AND 'petalwidth' IN RANGE [0.1, 0.1] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [16]
+
+RULE 17: IF 'sepallength' IN RANGE [6.4, 6.5] AND 'sepalwidth' IN RANGE [3.0, 3.1] AND 'petallength' IN RANGE [5.5, 5.5] AND 'petalwidth' IN RANGE [1.8, 1.8] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [17, 45]
+
+RULE 18: IF 'sepallength' IN RANGE [5.5, 5.6] AND 'sepalwidth' IN RANGE [2.4, 2.5] AND 'petallength' IN RANGE [3.8, 3.9] AND 'petalwidth' IN RANGE [1.1, 1.1] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [18, 85]
+
+RULE 19: IF 'sepallength' IN RANGE [4.9, 5.0] AND 'sepalwidth' IN RANGE [2.3, 2.4] AND 'petallength' IN RANGE [3.3, 3.3] AND 'petalwidth' IN RANGE [1.0, 1.0] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [20, 69]
+
+RULE 20: IF 'sepallength' IN RANGE [6.0, 6.0] AND 'sepalwidth' IN RANGE [2.7, 3.4] AND 'petallength' IN RANGE [4.5, 5.1] AND 'petalwidth' IN RANGE [1.6, 1.6] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [21, 56]
+
+RULE 21: IF 'sepallength' IN RANGE [5.6, 5.8] AND 'sepalwidth' IN RANGE [2.5, 2.7] AND 'petallength' IN RANGE [3.9, 3.9] AND 'petalwidth' IN RANGE [1.1, 1.2] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [22, 85]
+
+RULE 22: IF 'sepallength' IN RANGE [5.4, 6.0] AND 'sepalwidth' IN RANGE [2.9, 3.0] AND 'petallength' IN RANGE [4.5, 4.5] AND 'petalwidth' IN RANGE [1.5, 1.5] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [23, 33]
+
+RULE 23: IF 'sepallength' IN RANGE [6.2, 6.4] AND 'sepalwidth' IN RANGE [3.2, 3.4] AND 'petallength' IN RANGE [5.3, 5.4] AND 'petalwidth' IN RANGE [2.3, 2.3] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [24, 100]
+
+RULE 24: IF 'sepallength' IN RANGE [6.7, 6.9] AND 'sepalwidth' IN RANGE [3.0, 3.1] AND 'petallength' IN RANGE [5.1, 5.2] AND 'petalwidth' IN RANGE [2.3, 2.3] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [25, 68]
+
+RULE 25: IF 'sepallength' IN RANGE [6.2, 6.9] AND 'sepalwidth' IN RANGE [3.1, 3.4] AND 'petallength' IN RANGE [5.4, 5.4] AND 'petalwidth' IN RANGE [2.1, 2.3] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [26, 100]
+
+RULE 26: IF 'sepallength' IN RANGE [5.7, 6.0] AND 'sepalwidth' IN RANGE [2.2, 2.5] AND 'petallength' IN RANGE [5.0, 5.0] AND 'petalwidth' IN RANGE [1.5, 2.0] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [27, 102]
+
+RULE 27: IF 'sepallength' IN RANGE [4.6, 4.6] AND 'sepalwidth' IN RANGE [3.1, 3.2] AND 'petallength' IN RANGE [1.4, 1.5] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [28, 36]
+
+RULE 28: IF 'sepallength' IN RANGE [5.9, 6.3] AND 'sepalwidth' IN RANGE [2.8, 3.0] AND 'petallength' IN RANGE [5.1, 5.1] AND 'petalwidth' IN RANGE [1.5, 1.8] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [29, 58]
+
+RULE 29: IF 'sepallength' IN RANGE [7.7, 7.7] AND 'sepalwidth' IN RANGE [2.8, 3.8] AND 'petallength' IN RANGE [6.7, 6.7] AND 'petalwidth' IN RANGE [2.0, 2.2] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [30, 65]
+
+RULE 30: IF 'sepallength' IN RANGE [5.5, 6.1] AND 'sepalwidth' IN RANGE [2.5, 2.8] AND 'petallength' IN RANGE [4.0, 4.0] AND 'petalwidth' IN RANGE [1.3, 1.3] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [31, 37]
+
+RULE 31: IF 'sepallength' IN RANGE [4.9, 4.9] AND 'sepalwidth' IN RANGE [3.1, 3.1] AND 'petallength' IN RANGE [1.5, 1.5] AND 'petalwidth' IN RANGE [0.1, 0.1] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [32]
+
+RULE 32: IF 'sepallength' IN RANGE [5.2, 5.6] AND 'sepalwidth' IN RANGE [2.5, 2.7] AND 'petallength' IN RANGE [3.9, 3.9] AND 'petalwidth' IN RANGE [1.1, 1.4] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [34, 85]
+
+RULE 33: IF 'sepallength' IN RANGE [5.8, 5.9] AND 'sepalwidth' IN RANGE [2.7, 3.0] AND 'petallength' IN RANGE [5.1, 5.1] AND 'petalwidth' IN RANGE [1.8, 1.9] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [35, 58]
+
+RULE 34: IF 'sepallength' IN RANGE [4.6, 4.9] AND 'sepalwidth' IN RANGE [3.1, 3.1] AND 'petallength' IN RANGE [1.5, 1.5] AND 'petalwidth' IN RANGE [0.1, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [36, 46]
+
+RULE 35: IF 'sepallength' IN RANGE [6.7, 6.9] AND 'sepalwidth' IN RANGE [3.2, 3.3] AND 'petallength' IN RANGE [5.7, 5.7] AND 'petalwidth' IN RANGE [2.3, 2.5] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [38, 90]
+
+RULE 36: IF 'sepallength' IN RANGE [6.1, 6.3] AND 'sepalwidth' IN RANGE [2.8, 3.3] AND 'petallength' IN RANGE [4.7, 4.7] AND 'petalwidth' IN RANGE [1.2, 1.6] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [39, 83]
+
+RULE 37: IF 'sepallength' IN RANGE [5.8, 5.8] AND 'sepalwidth' IN RANGE [2.7, 2.8] AND 'petallength' IN RANGE [5.1, 5.1] AND 'petalwidth' IN RANGE [1.9, 2.4] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [40, 35]
+
+RULE 38: IF 'sepallength' IN RANGE [4.8, 5.0] AND 'sepalwidth' IN RANGE [3.4, 3.4] AND 'petallength' IN RANGE [1.5, 1.6] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [41, 79]
+
+RULE 39: IF 'sepallength' IN RANGE [5.0, 5.1] AND 'sepalwidth' IN RANGE [3.4, 3.4] AND 'petallength' IN RANGE [1.5, 1.5] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [42, 79]
+
+RULE 40: IF 'sepallength' IN RANGE [6.6, 6.7] AND 'sepalwidth' IN RANGE [3.0, 3.1] AND 'petallength' IN RANGE [4.4, 4.4] AND 'petalwidth' IN RANGE [1.4, 1.4] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [43, 78]
+
+RULE 41: IF 'sepallength' IN RANGE [6.3, 6.7] AND 'sepalwidth' IN RANGE [3.3, 3.3] AND 'petallength' IN RANGE [5.7, 6.0] AND 'petalwidth' IN RANGE [2.5, 2.5] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [44, 38]
+
+RULE 42: IF 'sepallength' IN RANGE [4.9, 4.9] AND 'sepalwidth' IN RANGE [3.1, 3.1] AND 'petallength' IN RANGE [1.5, 1.5] AND 'petalwidth' IN RANGE [0.1, 0.1] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [46]
+
+RULE 43: IF 'sepallength' IN RANGE [5.0, 5.1] AND 'sepalwidth' IN RANGE [3.5, 3.6] AND 'petallength' IN RANGE [1.4, 1.4] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [48, 53]
+
+RULE 44: IF 'sepallength' IN RANGE [6.8, 7.1] AND 'sepalwidth' IN RANGE [3.0, 3.2] AND 'petallength' IN RANGE [5.9, 5.9] AND 'petalwidth' IN RANGE [2.1, 2.3] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [49, 101]
+
+RULE 45: IF 'sepallength' IN RANGE [6.2, 6.4] AND 'sepalwidth' IN RANGE [2.9, 2.9] AND 'petallength' IN RANGE [4.3, 4.3] AND 'petalwidth' IN RANGE [1.3, 1.3] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [50, 62]
+
+RULE 46: IF 'sepallength' IN RANGE [5.7, 5.9] AND 'sepalwidth' IN RANGE [2.9, 3.0] AND 'petallength' IN RANGE [4.2, 4.2] AND 'petalwidth' IN RANGE [1.3, 1.5] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [51, 63]
+
+RULE 47: IF 'sepallength' IN RANGE [4.7, 4.7] AND 'sepalwidth' IN RANGE [3.2, 3.2] AND 'petallength' IN RANGE [1.3, 1.6] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [52, 55]
+
+RULE 48: IF 'sepallength' IN RANGE [5.1, 5.1] AND 'sepalwidth' IN RANGE [3.5, 3.5] AND 'petallength' IN RANGE [1.4, 1.4] AND 'petalwidth' IN RANGE [0.2, 0.3] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [53, 7]
+
+RULE 49: IF 'sepallength' IN RANGE [6.7, 6.7] AND 'sepalwidth' IN RANGE [3.0, 3.1] AND 'petallength' IN RANGE [4.7, 5.0] AND 'petalwidth' IN RANGE [1.5, 1.7] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [54, 11]
+
+RULE 50: IF 'sepallength' IN RANGE [6.0, 6.0] AND 'sepalwidth' IN RANGE [2.9, 3.4] AND 'petallength' IN RANGE [4.5, 4.5] AND 'petalwidth' IN RANGE [1.5, 1.6] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [56, 23]
+
+RULE 51: IF 'sepallength' IN RANGE [6.1, 6.3] AND 'sepalwidth' IN RANGE [2.6, 2.9] AND 'petallength' IN RANGE [5.6, 5.6] AND 'petalwidth' IN RANGE [1.4, 1.8] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [57, 84]
+
+RULE 52: IF 'sepallength' IN RANGE [5.6, 5.7] AND 'sepalwidth' IN RANGE [2.6, 2.9] AND 'petallength' IN RANGE [3.5, 3.6] AND 'petalwidth' IN RANGE [1.0, 1.3] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [59, 4]
+
+RULE 53: IF 'sepallength' IN RANGE [6.3, 6.9] AND 'sepalwidth' IN RANGE [2.5, 3.1] AND 'petallength' IN RANGE [4.9, 4.9] AND 'petalwidth' IN RANGE [1.5, 1.5] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [60, 67]
+
+RULE 54: IF 'sepallength' IN RANGE [5.4, 5.7] AND 'sepalwidth' IN RANGE [2.8, 3.0] AND 'petallength' IN RANGE [4.5, 4.5] AND 'petalwidth' IN RANGE [1.3, 1.5] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [61, 33]
+
+RULE 55: IF 'sepallength' IN RANGE [5.6, 5.7] AND 'sepalwidth' IN RANGE [2.7, 2.9] AND 'petallength' IN RANGE [4.2, 4.2] AND 'petalwidth' IN RANGE [1.3, 1.3] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [63, 93]
+
+RULE 56: IF 'sepallength' IN RANGE [6.1, 6.6] AND 'sepalwidth' IN RANGE [2.9, 3.0] AND 'petallength' IN RANGE [4.6, 4.6] AND 'petalwidth' IN RANGE [1.3, 1.4] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [64, 10]
+
+RULE 57: IF 'sepallength' IN RANGE [5.8, 6.5] AND 'sepalwidth' IN RANGE [2.7, 3.2] AND 'petallength' IN RANGE [5.1, 5.1] AND 'petalwidth' IN RANGE [1.9, 2.0] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [66, 35]
+
+RULE 58: IF 'sepallength' IN RANGE [6.5, 6.9] AND 'sepalwidth' IN RANGE [3.1, 3.2] AND 'petallength' IN RANGE [5.1, 5.1] AND 'petalwidth' IN RANGE [2.0, 2.3] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [68, 66]
+
+RULE 59: IF 'sepallength' IN RANGE [7.4, 7.9] AND 'sepalwidth' IN RANGE [2.8, 3.8] AND 'petallength' IN RANGE [6.1, 6.4] AND 'petalwidth' IN RANGE [1.9, 2.0] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [70, 89]
+
+RULE 60: IF 'sepallength' IN RANGE [6.4, 6.4] AND 'sepalwidth' IN RANGE [2.8, 2.8] AND 'petallength' IN RANGE [5.6, 5.6] AND 'petalwidth' IN RANGE [2.1, 2.2] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [71, 97]
+
+RULE 61: IF 'sepallength' IN RANGE [6.7, 7.0] AND 'sepalwidth' IN RANGE [3.1, 3.2] AND 'petallength' IN RANGE [4.7, 4.7] AND 'petalwidth' IN RANGE [1.4, 1.5] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [72, 11]
+
+RULE 62: IF 'sepallength' IN RANGE [5.1, 5.2] AND 'sepalwidth' IN RANGE [3.5, 3.5] AND 'petallength' IN RANGE [1.4, 1.5] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [75, 53]
+
+RULE 63: IF 'sepallength' IN RANGE [5.8, 6.0] AND 'sepalwidth' IN RANGE [2.2, 2.6] AND 'petallength' IN RANGE [4.0, 4.0] AND 'petalwidth' IN RANGE [1.0, 1.2] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [76, 12]
+
+RULE 64: IF 'sepallength' IN RANGE [5.2, 5.5] AND 'sepalwidth' IN RANGE [3.5, 3.5] AND 'petallength' IN RANGE [1.3, 1.5] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [77, 75]
+
+RULE 65: IF 'sepallength' IN RANGE [4.9, 5.6] AND 'sepalwidth' IN RANGE [2.5, 2.8] AND 'petallength' IN RANGE [4.5, 4.9] AND 'petalwidth' IN RANGE [1.7, 2.0] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [80, 2]
+
+RULE 66: IF 'sepallength' IN RANGE [5.3, 5.3] AND 'sepalwidth' IN RANGE [3.7, 3.7] AND 'petallength' IN RANGE [1.5, 1.5] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [81]
+
+RULE 67: IF 'sepallength' IN RANGE [4.4, 4.4] AND 'sepalwidth' IN RANGE [2.9, 2.9] AND 'petallength' IN RANGE [1.4, 1.4] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [82]
+
+RULE 68: IF 'sepallength' IN RANGE [6.1, 6.1] AND 'sepalwidth' IN RANGE [2.8, 2.8] AND 'petallength' IN RANGE [4.7, 4.7] AND 'petalwidth' IN RANGE [1.2, 1.2] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [83]
+
+RULE 69: IF 'sepallength' IN RANGE [6.3, 6.3] AND 'sepalwidth' IN RANGE [2.9, 2.9] AND 'petallength' IN RANGE [5.6, 5.6] AND 'petalwidth' IN RANGE [1.8, 1.8] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [84]
+
+RULE 70: IF 'sepallength' IN RANGE [5.6, 5.6] AND 'sepalwidth' IN RANGE [2.5, 2.5] AND 'petallength' IN RANGE [3.9, 3.9] AND 'petalwidth' IN RANGE [1.1, 1.1] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [85]
+
+RULE 71: IF 'sepallength' IN RANGE [5.0, 5.0] AND 'sepalwidth' IN RANGE [3.0, 3.0] AND 'petallength' IN RANGE [1.6, 1.6] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [86]
+
+RULE 72: IF 'sepallength' IN RANGE [5.8, 5.8] AND 'sepalwidth' IN RANGE [2.7, 2.7] AND 'petallength' IN RANGE [4.1, 4.1] AND 'petalwidth' IN RANGE [1.0, 1.0] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [87]
+
+RULE 73: IF 'sepallength' IN RANGE [6.1, 6.1] AND 'sepalwidth' IN RANGE [3.0, 3.0] AND 'petallength' IN RANGE [4.9, 4.9] AND 'petalwidth' IN RANGE [1.8, 1.8] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [88]
+
+RULE 74: IF 'sepallength' IN RANGE [7.4, 7.4] AND 'sepalwidth' IN RANGE [2.8, 2.8] AND 'petallength' IN RANGE [6.1, 6.1] AND 'petalwidth' IN RANGE [1.9, 1.9] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [89]
+
+RULE 75: IF 'sepallength' IN RANGE [6.9, 6.9] AND 'sepalwidth' IN RANGE [3.2, 3.2] AND 'petallength' IN RANGE [5.7, 5.7] AND 'petalwidth' IN RANGE [2.3, 2.3] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [90]
+
+RULE 76: IF 'sepallength' IN RANGE [5.1, 5.1] AND 'sepalwidth' IN RANGE [3.8, 3.8] AND 'petallength' IN RANGE [1.5, 1.5] AND 'petalwidth' IN RANGE [0.3, 0.3] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [91]
+
+RULE 77: IF 'sepallength' IN RANGE [6.7, 6.7] AND 'sepalwidth' IN RANGE [3.1, 3.1] AND 'petallength' IN RANGE [5.6, 5.6] AND 'petalwidth' IN RANGE [2.4, 2.4] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [92]
+
+RULE 78: IF 'sepallength' IN RANGE [5.6, 5.6] AND 'sepalwidth' IN RANGE [2.7, 2.7] AND 'petallength' IN RANGE [4.2, 4.2] AND 'petalwidth' IN RANGE [1.3, 1.3] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [93]
+
+RULE 79: IF 'sepallength' IN RANGE [6.3, 6.3] AND 'sepalwidth' IN RANGE [2.3, 2.3] AND 'petallength' IN RANGE [4.4, 4.4] AND 'petalwidth' IN RANGE [1.3, 1.3] THEN CLASS: 'Iris-versicolor' WITH PRECISION OF 1.0 AND COVERAGE [94]
+
+RULE 80: IF 'sepallength' IN RANGE [4.6, 4.6] AND 'sepalwidth' IN RANGE [3.4, 3.4] AND 'petallength' IN RANGE [1.4, 1.4] AND 'petalwidth' IN RANGE [0.3, 0.3] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [95]
+
+RULE 81: IF 'sepallength' IN RANGE [5.7, 5.7] AND 'sepalwidth' IN RANGE [4.4, 4.4] AND 'petallength' IN RANGE [1.5, 1.5] AND 'petalwidth' IN RANGE [0.4, 0.4] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [96]
+
+RULE 82: IF 'sepallength' IN RANGE [6.4, 6.4] AND 'sepalwidth' IN RANGE [2.8, 2.8] AND 'petallength' IN RANGE [5.6, 5.6] AND 'petalwidth' IN RANGE [2.2, 2.2] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [97]
+
+RULE 83: IF 'sepallength' IN RANGE [4.8, 4.8] AND 'sepalwidth' IN RANGE [3.4, 3.4] AND 'petallength' IN RANGE [1.9, 1.9] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [98]
+
+RULE 84: IF 'sepallength' IN RANGE [4.8, 4.8] AND 'sepalwidth' IN RANGE [3.1, 3.1] AND 'petallength' IN RANGE [1.6, 1.6] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [99]
+
+RULE 85: IF 'sepallength' IN RANGE [6.2, 6.2] AND 'sepalwidth' IN RANGE [3.4, 3.4] AND 'petallength' IN RANGE [5.4, 5.4] AND 'petalwidth' IN RANGE [2.3, 2.3] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [100]
+
+RULE 86: IF 'sepallength' IN RANGE [6.8, 6.8] AND 'sepalwidth' IN RANGE [3.2, 3.2] AND 'petallength' IN RANGE [5.9, 5.9] AND 'petalwidth' IN RANGE [2.3, 2.3] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [101]
+
+RULE 87: IF 'sepallength' IN RANGE [6.0, 6.0] AND 'sepalwidth' IN RANGE [2.2, 2.2] AND 'petallength' IN RANGE [5.0, 5.0] AND 'petalwidth' IN RANGE [1.5, 1.5] THEN CLASS: 'Iris-virginica' WITH PRECISION OF 1.0 AND COVERAGE [102]
+
+RULE 88: IF 'sepallength' IN RANGE [5.2, 5.2] AND 'sepalwidth' IN RANGE [4.1, 4.1] AND 'petallength' IN RANGE [1.5, 1.5] AND 'petalwidth' IN RANGE [0.1, 0.1] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [103]
+
+RULE 89: IF 'sepallength' IN RANGE [5.0, 5.0] AND 'sepalwidth' IN RANGE [3.3, 3.3] AND 'petallength' IN RANGE [1.4, 1.4] AND 'petalwidth' IN RANGE [0.2, 0.2] THEN CLASS: 'Iris-setosa' WITH PRECISION OF 1.0 AND COVERAGE [104]
+
