@@ -17,10 +17,15 @@ IDE. In order to execute the project, simply run "main.py" in PyCharm or some si
 You will be greeted with a menu that will provide you the opportunity of selecting between
 several options:
 
+
 • "1": Processing Heart-C dataset.
+
 • "2": Processing Pima Diabetes dataset.
+
 • "3": Processing Rice dataset.
+
 • "4": Process another dataset.
+
 • "5": Exit.
 
 Before anything else, note that the PyCharm project is composed by three .py files and two
